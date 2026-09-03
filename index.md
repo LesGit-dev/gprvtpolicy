@@ -53,4 +53,4 @@ removes everything the app stores. Uninstalling the app does the same.
 
 ## Contact
 
-leslie.kep@gmail.com
+pulacircle@gmail.com
