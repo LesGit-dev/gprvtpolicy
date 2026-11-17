@@ -1,9 +1,10 @@
 # Sonic Gallery privacy policy
 
-Last updated 3 September 2026. This policy applies to Sonic Gallery 1.0.42 and later.
+Last updated 17 November 2026. This policy applies to Sonic Gallery 1.0.51 and later.
 
 Sonic Gallery is a music player for the audio already on your Android device.
-It has no account, no server and no analytics.
+It has no account, no server and no analytics. The one thing it asks of
+another service is a song's lyrics, when you open them (see Lyrics below).
 
 ## What the app stores
 
@@ -17,8 +18,17 @@ transfer carries it across.
 ## What the app does not do
 
 It does not collect, share or sell personal data. It does not use analytics,
-advertising or crash-reporting services. It makes no network requests of its
-own.
+advertising or crash-reporting services. Its only network request of its own
+is the lyrics lookup below.
+
+## Lyrics
+
+When you open Lyrics in Now Playing, the app asks LRCLIB (lrclib.net), a free
+lyrics database, for the words of the song playing. It sends that song's
+title, artist, album and length, and names itself "SonicGallery". It sends
+nothing about you, and nothing when you do not open Lyrics. It never sends
+the name of a voice note or recording. LRCLIB, like any website, sees the
+internet address the request comes from; its own terms apply to that.
 
 ## Permissions
 
@@ -30,8 +40,9 @@ app opens and you have already granted access.
 Notifications are requested the first time music plays, so playback controls
 can appear on the lock screen and in the notification shade.
 
-Internet is used only when you ask for a lyrics search, which opens in your
-browser, and in the browser preview to load sample artwork.
+Internet is used when you open Lyrics (see above), when you ask for a lyrics
+search on the web, which opens in your browser, and in the browser preview to
+load sample artwork.
 
 The foreground service (media playback) keeps music playing when the app is
 in the background.
